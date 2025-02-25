@@ -6,7 +6,7 @@
   Team Name: T.I.T.A.N.S,
   Points Scored: 3440,
   Final Standing: 48th,
-  Website: https://jayesh-dev21.github.io/T.I.T.A.N.S/
+  Website: https://t-i-t-a-n-s.github.io/T.I.T.A.N.S/
 }
 ```
 
