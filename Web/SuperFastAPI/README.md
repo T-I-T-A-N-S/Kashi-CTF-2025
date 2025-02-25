@@ -78,7 +78,7 @@ on reaching there I got the flag.
 
 ---
 ## Flag
-ID
+
 ```
 KashiCTF{your_flag_here}
 ```                 
