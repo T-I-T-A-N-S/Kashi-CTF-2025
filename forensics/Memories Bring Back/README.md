@@ -28,7 +28,8 @@ grep -a "KashiCTF{" chall
 <img src="images/sol.png" alt="solution">
 
 Which gave the flag.
-<img src="images/theflag.png" alt="flag">
+ 
+<img src="images/theflag.png" alt="flag" height="300px">
 
 
 
