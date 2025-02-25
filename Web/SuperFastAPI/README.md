@@ -1,5 +1,4 @@
-# SuperFastAPI 
-
+# SuperFastAPI ⚡
 
 **Final Points:** 100
 
