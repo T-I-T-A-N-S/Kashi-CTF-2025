@@ -37,6 +37,7 @@ on searching this on web I got - A painting of DODO bird (now extinct)
 On searching I got to know that this painting is kept at the - `Hermitage Museum in St. Petersberg, Russia`
 
 on searching it on Google Maps I got -
+
 ![gps](images/gps.png)
 
 The coordinates as
