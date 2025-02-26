@@ -17,7 +17,9 @@ Flag format: `KashiCTF{your_flag_here};`
 ## Writeup
 
 On downloading the image, 
-[chess](images/chall.jpg)
+
+<img src="images/chall.jpg" alt="chess">
+
 I ran exiftool on it to find something in its meta data and I got
 ```bash
 > exiftool images/chall.jpg
@@ -46,9 +48,9 @@ Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
 Image Size                      : 817x815
 Megapixels                      : 0.666
 ```
-[exiftool](images/exiftool.png)
+<img src="images/exiftool.png" alt="exiftool">
 which had a hint in its comment
-` "Use the moves as a key to the flag, separated by _" `
+{Use the moves as a key to the flag, separated by _}
 
 To find the set of moves for checkmate I used [Next Chess Move](https://nextchessmove.com/?fen=8/8/2Q5/3B4/1KP5/8/NkP5/2R5%20w%20-%20-%200%201)
 
@@ -56,7 +58,7 @@ Now, I had two choices,
 - White to move first
 - Black to move first
 
-But after analyzing a bit, I saw that if black moves first, then it is a stalemate. Now, I knew that it was white's turn to move.
+But after analyzing a bit, I saw that if black moves first, then it is a `stalemate`. Now, I knew that it was white's turn to move.
 
 the set of moves were -
 ```
@@ -65,9 +67,9 @@ the set of moves were -
     White - Qg2
     # - checkmate
 ```
-[move 1](images/2.png)
-[move 2](images/3.png)
-[move 3 checkmate](images/checkmate.png)
+<img src="images/2.png" alt="move 1">
+<img src="images/3.png" alt="move 2">
+<img src="images/checkmate.png" alt="move 3 checkmate">
 
 so the passphrase is
 ```
@@ -80,7 +82,7 @@ steghide extract -p Bh1_Kxa2_Qg2 -sf images/chall.jpg
 
 steghide: could not extract any data with that passphrase!
 ```
-[no output](images/no.png)
+<img src="images/no.png" alt="no output">
 
 so on thinking,
 
@@ -95,14 +97,14 @@ steghide extract -p Bh1_Kxa2_Qg2 -sf images/chall.jpg
 
 steghide: could not extract any data with that passphrase!
 ```
-[yay flag.txt](images/flagtxt.png)
+<img src="images/flagtxt.png" alt="yay flag.txt">
 
 on concatenating `flag.txt`
 ```bash
 ❯ cat flag.txt
 KashiCTF{573g0_g4m617_4cc3p73d}
 ```
-[flag](images/flag.png)
+<img src="images/flag.png" alt="flag">
 Which is the flag.
 
 
