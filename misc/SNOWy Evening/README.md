@@ -12,7 +12,9 @@ A friend of mine , Aakash has gone missing and the only thing we found is this p
 ----
 ## Writeup
 
-**poemm.txt**
+**poemm.txt** 
+
+view [poemm.txt](poemm.txt)
 ```
 Pity, in place of love,			       	       			  
 That pettiest of gifts,      	     	    		      	       	       
@@ -46,7 +48,7 @@ From the title of the Question, I got a hint of the word `snow` on searching a b
 
 for [Ubuntu/Debian](https://wiki.bi0s.in/steganography/stegsnow/)
 
-and [I use Arch btw ...](https://darkside.com.au/snow/) --> use tar and `make` 
+and [I use Arch btw ...](https://darkside.com.au/snow/) --> use tar and use `make` 
 
 Then the command I used
 ```
@@ -67,7 +69,7 @@ https://pastebin.com/HVQfa14Z
 
 Which was a [pastebin link](https://pastebin.com/HVQfa14Z)
 
-![inside pastebin](images/paste.png)
+![inside pastebin](images/paste.pg)
 
 On analyzing it, it looked like something a cow would say -- `moooo`
 
