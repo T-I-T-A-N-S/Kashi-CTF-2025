@@ -1,5 +1,7 @@
 # Kashi CTF 2025 🚩
 
+![Kashi](kashi.png) 🙏🙏
+
 ### Our Status: 
 ```
 {
