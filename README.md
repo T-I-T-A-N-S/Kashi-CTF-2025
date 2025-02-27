@@ -1,6 +1,7 @@
 # Kashi CTF 2025 🚩
 
-![Kashi](kashi.png) 🙏🙏
+![Kashi](kashi.png) 
+[🙏🙏](https://www.youtube.com/watch?v=xvFZjo5PgG0)
 
 ### Our Status: 
 ```
